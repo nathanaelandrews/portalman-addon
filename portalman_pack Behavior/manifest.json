@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "portalman_pack",
+		"description": "portalman_pack Behavior Pack",
+		"uuid": "3c30ae2a-c4a4-24fc-3c23-77fec64ce701",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["NNExplorers"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.7.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "d89da1ee-978e-62ee-d79a-83cee7acf2c8",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "eca5bd0c-30f3-4780-3b19-8427b6282f87",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "noah:portalman",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/portalman"
+			},
+			"geometry": {
+				"default": "geometry.portalman"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#1b181c",
+				"overlay_color": "#ce53de"
+			}
+		}
+	}
+}

@@ -1,23 +1,23 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "portalman_pack",
-		"description": "portalman_pack Resource Pack",
-		"uuid": "eca5bd0c-30f3-4780-3b19-8427b6282f87",
+		"name": "portalman",
+		"description": "portalman Resource Pack",
+		"uuid": "8c6ff49c-888e-1dab-3409-e9f8725aef93",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 16, 0]
 	},
 	"metadata": {
-		"authors": ["NNExplorers"],
+		"authors": ["NNExplore"],
 		"generated_with": {
 			"blockbench_entity_wizard": ["1.7.0"]
 		}
 	},
 	"modules": [
 		{
-			"description": "portalman_pack",
+			"description": "portalman",
 			"type": "resources",
-			"uuid": "ddedb52e-6fe5-583a-a32b-47b30a8a1b33",
+			"uuid": "d658306f-5649-1067-d6f7-cd66854c5484",
 			"version": [1, 0, 0]
 		}
 	]

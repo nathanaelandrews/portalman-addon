@@ -1,0 +1,143 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.portalman.arms_legs": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
+				},
+				"leftLeg": {
+					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
+				},
+				"rightArm": {
+					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
+				},
+				"rightLeg": {
+					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
+				}
+			}
+		},
+		"animation.portalman.carrying": {
+			"loop": true,
+			"animation_length": 12.375,
+			"bones": {
+				"leftArm": {
+					"rotation": {
+						"0.0": ["-28.65 - this", 0, "-2.87 - this"],
+						"12.375": ["-28.65 - this", 0, "-2.87 - this"]
+					}
+				},
+				"rightArm": {
+					"rotation": ["-28.65 - this", 0, "2.87 - this"]
+				}
+			}
+		},
+		"animation.portalman.scary_face": {
+			"loop": true,
+			"bones": {
+				"hat": {
+					"position": [0, "-5.0 - this", 0]
+				},
+				"head": {
+					"position": [0, "5.0 - this", 0]
+				}
+			}
+		},
+		"animation.portalman.attack.rotations": {
+			"loop": true,
+			"animation_length": 0.5417,
+			"bones": {
+				"body": {
+					"rotation": [0, "math.sin(math.sqrt(variable.attack_time) * 360) * 11.46 - this", 0]
+				},
+				"leftArm": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": [0, 0, 0.01]
+				},
+				"rightArm": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": {
+						"0.0": [
+							"math.sin(1.0 - math.pow(1.0 - variable.attack_time, 3.0) * 180.0) * (variable.is_brandishing_spear ? -1.0 : 1.0 )",
+							"variable.is_brandishing_spear ? 0.0 : (math.sin(math.sqrt(variable.attack_time) * 360) * 11.46) * 2.0",
+							0
+						],
+						"0.25": [
+							"36.9484+math.sin(1.0 - math.pow(1.0 - variable.attack_time, 3.0) * 180.0) * (variable.is_brandishing_spear ? -1.0 : 1.0 )",
+							"-25.7238+variable.is_brandishing_spear ? 0.0 : (math.sin(math.sqrt(variable.attack_time) * 360) * 11.46) * 2.0",
+							33.83
+						],
+						"0.3333": [
+							"-35.6851+math.sin(1.0 - math.pow(1.0 - variable.attack_time, 3.0) * 180.0) * (variable.is_brandishing_spear ? -1.0 : 1.0 )",
+							"-121.6835+variable.is_brandishing_spear ? 0.0 : (math.sin(math.sqrt(variable.attack_time) * 360) * 11.46) * 2.0",
+							-17.46804
+						]
+					}
+				}
+			}
+		},
+		"animation.portalman.bob": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": [0, 0, "((math.cos(query.life_time * 103.2) * 2.865) + 2.865) *-1.0"]
+				},
+				"rightArm": {
+					"rotation": [0, 0, "(math.cos(query.life_time * 103.2) * 2.865) + 2.865"]
+				}
+			}
+		},
+		"animation.portalman.move": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"leftArm": {
+					"rotation": {
+						"0.0": ["15+variable.tcos0", 0, 0],
+						"0.25": ["-12.5-variable.tcos0", 0, 0],
+						"0.5": ["15+variable.tcos0", 0, 0]
+					}
+				},
+				"leftLeg": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": {
+						"0.0": [210.09468, 170.67125, -182.50477],
+						"0.25": [149.90532, 170.67125, -177.49523],
+						"0.5": [210.09468, 170.67125, -182.50477]
+					}
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": ["-12.5-variable.tcos0", 0, 0],
+						"0.25": ["15-variable.tcos0", 0, 0],
+						"0.5": ["-12.5-variable.tcos0", 0, 0]
+					}
+				},
+				"rightLeg": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": {
+						"0.0": [30, 0, 0],
+						"0.25": [-30, 0, 0],
+						"0.5": [30, 0, 0]
+					}
+				},
+				"bone": {
+					"rotation": {
+						"0.0": [23.45, 0, 0],
+						"0.25": [-34.69, 0, 0],
+						"0.5": [23.45, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

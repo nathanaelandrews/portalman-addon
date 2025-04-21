@@ -93,7 +93,7 @@
 								"south": {"uv": [62, 8], "uv_size": [2, 22], "uv_rotation": 90},
 								"west": {"uv": [61, 4], "uv_size": [2, 2]},
 								"up": {"uv": [62, 8], "uv_size": [2, 22], "uv_rotation": 90},
-								"down": {"uv": [64, 8], "uv_size": [-2, 22], "uv_rotation": 90}
+								"down": {"uv": [64, 8], "uv_size": [2, 22], "uv_rotation": 90}
 							}
 						},
 						{
@@ -105,7 +105,7 @@
 								"south": {"uv": [62, 8], "uv_size": [2, 22], "uv_rotation": 90},
 								"west": {"uv": [61, 4], "uv_size": [2, 2]},
 								"up": {"uv": [62, 8], "uv_size": [2, 22], "uv_rotation": 90},
-								"down": {"uv": [64, 8], "uv_size": [-2, 22], "uv_rotation": 90}
+								"down": {"uv": [64, 8], "uv_size": [2, 22], "uv_rotation": 90}
 							}
 						},
 						{
@@ -131,18 +131,14 @@
 								"south": {"uv": [62, 8], "uv_size": [2, 22], "uv_rotation": 90},
 								"west": {"uv": [61, 4], "uv_size": [2, 2]},
 								"up": {"uv": [62, 8], "uv_size": [2, 22], "uv_rotation": 90},
-								"down": {"uv": [64, 8], "uv_size": [-2, 22], "uv_rotation": 90}
+								"down": {"uv": [64, 8], "uv_size": [2, 22], "uv_rotation": 90}
 							}
 						}
 					]
 				},
 				{
-					"name": "bone",
-					"parent": "body",
-					"pivot": [5, 11.97717, -0.47707]
-				},
-				{
 					"name": "portal",
+					"parent": "body",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{
@@ -150,11 +146,11 @@
 							"size": [18, 26, 0],
 							"uv": {
 								"north": {"uv": [41, 0], "uv_size": [13, 16]},
-								"east": {"uv": [28, 1], "uv_size": [0, 26]},
-								"south": {"uv": [20, 0], "uv_size": [7, 6]},
-								"west": {"uv": [21, 6], "uv_size": [7, -5], "uv_rotation": 180},
-								"up": {"uv": [25, 4], "uv_size": [18, 0]},
-								"down": {"uv": [19, 6], "uv_size": [7, -6]}
+								"east": {"uv": [41, 0], "uv_size": [13, 16]},
+								"south": {"uv": [41, 0], "uv_size": [13, 16]},
+								"west": {"uv": [41, 0], "uv_size": [13, 16], "uv_rotation": 270},
+								"up": {"uv": [41, 0], "uv_size": [13, 16]},
+								"down": {"uv": [41, 0], "uv_size": [13, 16]}
 							}
 						}
 					]

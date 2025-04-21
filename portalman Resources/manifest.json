@@ -3,7 +3,7 @@
 	"header": {
 		"name": "portalman",
 		"description": "portalman Resource Pack",
-		"uuid": "8c6ff49c-888e-1dab-3409-e9f8725aef93",
+		"uuid": "a5d642a9-7dae-2abd-0de1-173c51660925",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 16, 0]
 	},
@@ -17,7 +17,7 @@
 		{
 			"description": "portalman",
 			"type": "resources",
-			"uuid": "d658306f-5649-1067-d6f7-cd66854c5484",
+			"uuid": "34d2d4af-51a5-c2bc-3048-ac119ed1d061",
 			"version": [1, 0, 0]
 		}
 	]

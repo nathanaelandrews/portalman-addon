@@ -3,7 +3,7 @@
 	"header": {
 		"name": "portalman",
 		"description": "portalman Behavior Pack",
-		"uuid": "bd90ba38-b95e-9b4a-8df9-96d84862ab79",
+		"uuid": "8e9d8344-41d0-d5e3-a56c-deb0bc6b01db",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 16, 0]
 	},
@@ -17,13 +17,13 @@
 		{
 			"description": "Behavior",
 			"version": [1, 0, 0],
-			"uuid": "d7dc0e4a-6e39-e585-8d17-50883d8b678c",
+			"uuid": "0cadcc16-a872-0daa-f4c0-b996fe94ba9c",
 			"type": "data"
 		}
 	],
 	"dependencies": [
 		{
-			"uuid": "8c6ff49c-888e-1dab-3409-e9f8725aef93",
+			"uuid": "a5d642a9-7dae-2abd-0de1-173c51660925",
 			"version": [1, 0, 0]
 		}
 	]

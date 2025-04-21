@@ -1,23 +1,6 @@
 {
-	"format_version": "1.21.0",
+	"format_version": "1.8.0",
 	"animations": {
-		"animation.portalman.arms_legs": {
-			"loop": true,
-			"bones": {
-				"leftArm": {
-					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
-				},
-				"leftLeg": {
-					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
-				},
-				"rightArm": {
-					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
-				},
-				"rightLeg": {
-					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
-				}
-			}
-		},
 		"animation.portalman.carrying": {
 			"loop": true,
 			"animation_length": 12.375,
@@ -128,13 +111,6 @@
 						"0.0": [30, 0, 0],
 						"0.25": [-30, 0, 0],
 						"0.5": [30, 0, 0]
-					}
-				},
-				"bone": {
-					"rotation": {
-						"0.0": [23.45, 0, 0],
-						"0.25": [-34.69, 0, 0],
-						"0.5": [23.45, 0, 0]
 					}
 				}
 			}
